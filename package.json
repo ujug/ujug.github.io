@@ -14,10 +14,10 @@
     "react-transition-group": "^2.2.1",
     "reactstrap": "^5.0.0-beta"
   },
-  "homepage": "https://ujug.github.io",
+  "homepage": "https://utrechtjug.github.io",
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "gh-pages -b master -d build",
+    "deploy": "gh-pages -b gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
