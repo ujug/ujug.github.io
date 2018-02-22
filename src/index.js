@@ -14,6 +14,7 @@ import Talk from './content/talk/Talk';
 
 // layout components
 import Header from './layout/header/Header';
+import Footer from './layout/footer/Footer';
 
 // PWA-ify
 import registerServiceWorker from './registerServiceWorker';
@@ -28,6 +29,8 @@ ReactDOM.render(
             <Route exact path="/talk" component={Talk}/>
             <Route exact path="/event" component={Events}/>
             <Route exact path="/contact" component={Contact}/>
+
+            <Footer />
         </div>
     </HashRouter>, 
     document.getElementById('root'));
